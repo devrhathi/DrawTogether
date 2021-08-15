@@ -1,6 +1,6 @@
 (function () {
   const socket = io();
-  const canvas = document.querySelector("#myWhiteboard");
+  const canvas = document.querySelector(".myWhiteboard");
   const context = canvas.getContext("2d");
   resizeCanvas();
 
